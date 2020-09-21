@@ -16,7 +16,7 @@ const Counter=()=>{
         <>
             <div className="div" style={{backgroundColor:"cf1515"}}>
             <h1>{hello}</h1>
-            <button onClick={Inc}>Click</button>
+            <button onClick={Inc}>Next Quote</button>
             </div>
         </>
     );
