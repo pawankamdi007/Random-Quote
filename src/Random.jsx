@@ -26,10 +26,10 @@ const Random=()=>{
 
     }
 
-    let color="red";
+    let color="#e33042";
     const [cColor,uColor]=useState(color);
   const bgColor=()=>{
-      const arr1=["green","blue","pink"];
+      const arr1=["#18c989","#22d3f2","#a832c2","#ebe544"];
      
       uColor(arr1[j]);
       j++;
